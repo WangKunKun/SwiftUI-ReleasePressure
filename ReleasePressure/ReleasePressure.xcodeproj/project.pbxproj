@@ -1,0 +1,876 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EAA5B1732A6A5B98009068EB /* ReleasePressureApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA5B1722A6A5B98009068EB /* ReleasePressureApp.swift */; };
+		EAA5B1752A6A5B98009068EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA5B1742A6A5B98009068EB /* ContentView.swift */; };
+		EAA5B1772A6A5B99009068EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAA5B1762A6A5B99009068EB /* Assets.xcassets */; };
+		EAA5B17A2A6A5B99009068EB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAA5B1792A6A5B99009068EB /* Preview Assets.xcassets */; };
+		EAA5B1842A6A5B99009068EB /* ReleasePressureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA5B1832A6A5B99009068EB /* ReleasePressureTests.swift */; };
+		EAA5B18E2A6A5B99009068EB /* ReleasePressureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA5B18D2A6A5B99009068EB /* ReleasePressureUITests.swift */; };
+		EAA5B1902A6A5B99009068EB /* ReleasePressureUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA5B18F2A6A5B99009068EB /* ReleasePressureUITestsLaunchTests.swift */; };
+		EAA5B19D2A6A5FCD009068EB /* WoodenFishPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA5B19C2A6A5FCD009068EB /* WoodenFishPage.swift */; };
+		EAA5B1D42A6A6185009068EB /* muyu8_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = EAA5B1A02A6A6184009068EB /* muyu8_1.wav */; };
+		EAA5B1D52A6A6185009068EB /* muyu10_0.wav in Resources */ = {isa = PBXBuildFile; fileRef = EAA5B1A12A6A6184009068EB /* muyu10_0.wav */; };
+		EAA5B1D62A6A6185009068EB /* muyu0_3.wav in Resources */ = {isa = PBXBuildFile; fileRef = EAA5B1A22A6A6184009068EB /* muyu0_3.wav */; };
+		EAA5B1D72A6A6185009068EB /* muyu9_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = EAA5B1A32A6A6184009068EB /* muyu9_1.wav */; };
+		EAA5B1D82A6A6185009068EB /* muyu7_2.wav in Resources */ = {isa = PBXBuildFile; fileRef = EAA5B1A42A6A6184009068EB /* muyu7_2.wav */; };
+		EAA5B1D92A6A6185009068EB /* muyu2_2.wav in Resources */ = {isa = PBXBuildFile; fileRef = EAA5B1A52A6A6184009068EB /* muyu2_2.wav */; };
+		EAA5B1DA2A6A6185009068EB /* muyu6_2.wav in Resources */ = {isa = PBXBuildFile; fileRef = EAA5B1A62A6A6184009068EB /* muyu6_2.wav */; };
+		EAA5B1DB2A6A6185009068EB /* muyu12_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = EAA5B1A72A6A6184009068EB /* muyu12_1.wav */; };
+		EAA5B1DC2A6A6185009068EB /* muyu10_2.wav in Resources */ = {isa = PBXBuildFile; fileRef = EAA5B1A82A6A6184009068EB /* muyu10_2.wav */; };
+		EAA5B1DD2A6A6185009068EB /* muyu9_0.wav in Resources */ = {isa = PBXBuildFile; fileRef = EAA5B1A92A6A6184009068EB /* muyu9_0.wav */; };
+		EAA5B1DE2A6A6185009068EB /* muyu9_3.wav in Resources */ = {isa = PBXBuildFile; fileRef = EAA5B1AA2A6A6184009068EB /* muyu9_3.wav */; };
+		EAA5B1DF2A6A6185009068EB /* muyu0_0.wav in Resources */ = {isa = PBXBuildFile; fileRef = EAA5B1AB2A6A6184009068EB /* muyu0_0.wav */; };
+		EAA5B1E02A6A6185009068EB /* muyu5_3.wav in Resources */ = {isa = PBXBuildFile; fileRef = EAA5B1AC2A6A6184009068EB /* muyu5_3.wav */; };
+		EAA5B1E12A6A6185009068EB /* muyu1_3.wav in Resources */ = {isa = PBXBuildFile; fileRef = EAA5B1AD2A6A6184009068EB /* muyu1_3.wav */; };
+		EAA5B1E22A6A6185009068EB /* muyu3_2.wav in Resources */ = {isa = PBXBuildFile; fileRef = EAA5B1AE2A6A6185009068EB /* muyu3_2.wav */; };
+		EAA5B1E32A6A6185009068EB /* muyu11_2.wav in Resources */ = {isa = PBXBuildFile; fileRef = EAA5B1AF2A6A6185009068EB /* muyu11_2.wav */; };
+		EAA5B1E42A6A6185009068EB /* muyu3_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = EAA5B1B02A6A6185009068EB /* muyu3_1.wav */; };
+		EAA5B1E52A6A6185009068EB /* muyu5_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = EAA5B1B12A6A6185009068EB /* muyu5_1.wav */; };
+		EAA5B1E62A6A6185009068EB /* muyu8_2.wav in Resources */ = {isa = PBXBuildFile; fileRef = EAA5B1B22A6A6185009068EB /* muyu8_2.wav */; };
+		EAA5B1E72A6A6185009068EB /* muyu4_0.wav in Resources */ = {isa = PBXBuildFile; fileRef = EAA5B1B32A6A6185009068EB /* muyu4_0.wav */; };
+		EAA5B1E82A6A6185009068EB /* muyu5_2.wav in Resources */ = {isa = PBXBuildFile; fileRef = EAA5B1B42A6A6185009068EB /* muyu5_2.wav */; };
+		EAA5B1E92A6A6185009068EB /* muyu11_0.wav in Resources */ = {isa = PBXBuildFile; fileRef = EAA5B1B52A6A6185009068EB /* muyu11_0.wav */; };
+		EAA5B1EA2A6A6185009068EB /* muyu4_3.wav in Resources */ = {isa = PBXBuildFile; fileRef = EAA5B1B62A6A6185009068EB /* muyu4_3.wav */; };
+		EAA5B1EB2A6A6185009068EB /* muyu12_0.wav in Resources */ = {isa = PBXBuildFile; fileRef = EAA5B1B72A6A6185009068EB /* muyu12_0.wav */; };
+		EAA5B1EC2A6A6185009068EB /* muyu6_3.wav in Resources */ = {isa = PBXBuildFile; fileRef = EAA5B1B82A6A6185009068EB /* muyu6_3.wav */; };
+		EAA5B1ED2A6A6185009068EB /* muyu7_3.wav in Resources */ = {isa = PBXBuildFile; fileRef = EAA5B1B92A6A6185009068EB /* muyu7_3.wav */; };
+		EAA5B1EE2A6A6185009068EB /* muyu8_0.wav in Resources */ = {isa = PBXBuildFile; fileRef = EAA5B1BA2A6A6185009068EB /* muyu8_0.wav */; };
+		EAA5B1EF2A6A6185009068EB /* muyu1_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = EAA5B1BB2A6A6185009068EB /* muyu1_1.wav */; };
+		EAA5B1F02A6A6185009068EB /* muyu3_0.wav in Resources */ = {isa = PBXBuildFile; fileRef = EAA5B1BC2A6A6185009068EB /* muyu3_0.wav */; };
+		EAA5B1F12A6A6185009068EB /* muyu7_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = EAA5B1BD2A6A6185009068EB /* muyu7_1.wav */; };
+		EAA5B1F22A6A6185009068EB /* muyu5_0.wav in Resources */ = {isa = PBXBuildFile; fileRef = EAA5B1BE2A6A6185009068EB /* muyu5_0.wav */; };
+		EAA5B1F32A6A6185009068EB /* muyu8_3.wav in Resources */ = {isa = PBXBuildFile; fileRef = EAA5B1BF2A6A6185009068EB /* muyu8_3.wav */; };
+		EAA5B1F42A6A6185009068EB /* muyu2_3.wav in Resources */ = {isa = PBXBuildFile; fileRef = EAA5B1C02A6A6185009068EB /* muyu2_3.wav */; };
+		EAA5B1F52A6A6185009068EB /* muyu9_2.wav in Resources */ = {isa = PBXBuildFile; fileRef = EAA5B1C12A6A6185009068EB /* muyu9_2.wav */; };
+		EAA5B1F62A6A6185009068EB /* muyu1_2.wav in Resources */ = {isa = PBXBuildFile; fileRef = EAA5B1C22A6A6185009068EB /* muyu1_2.wav */; };
+		EAA5B1F72A6A6185009068EB /* muyu0_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = EAA5B1C32A6A6185009068EB /* muyu0_1.wav */; };
+		EAA5B1F82A6A6185009068EB /* muyu3_3.wav in Resources */ = {isa = PBXBuildFile; fileRef = EAA5B1C42A6A6185009068EB /* muyu3_3.wav */; };
+		EAA5B1F92A6A6185009068EB /* muyu2_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = EAA5B1C52A6A6185009068EB /* muyu2_1.wav */; };
+		EAA5B1FA2A6A6185009068EB /* muyu11_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = EAA5B1C62A6A6185009068EB /* muyu11_1.wav */; };
+		EAA5B1FB2A6A6185009068EB /* muyu12_2.wav in Resources */ = {isa = PBXBuildFile; fileRef = EAA5B1C72A6A6185009068EB /* muyu12_2.wav */; };
+		EAA5B1FC2A6A6185009068EB /* muyu4_2.wav in Resources */ = {isa = PBXBuildFile; fileRef = EAA5B1C82A6A6185009068EB /* muyu4_2.wav */; };
+		EAA5B1FD2A6A6185009068EB /* muyu1_0.wav in Resources */ = {isa = PBXBuildFile; fileRef = EAA5B1C92A6A6185009068EB /* muyu1_0.wav */; };
+		EAA5B1FE2A6A6185009068EB /* muyu12_3.wav in Resources */ = {isa = PBXBuildFile; fileRef = EAA5B1CA2A6A6185009068EB /* muyu12_3.wav */; };
+		EAA5B1FF2A6A6185009068EB /* muyu11_3.wav in Resources */ = {isa = PBXBuildFile; fileRef = EAA5B1CB2A6A6185009068EB /* muyu11_3.wav */; };
+		EAA5B2002A6A6185009068EB /* muyu6_0.wav in Resources */ = {isa = PBXBuildFile; fileRef = EAA5B1CC2A6A6185009068EB /* muyu6_0.wav */; };
+		EAA5B2012A6A6185009068EB /* muyu0_2.wav in Resources */ = {isa = PBXBuildFile; fileRef = EAA5B1CD2A6A6185009068EB /* muyu0_2.wav */; };
+		EAA5B2022A6A6185009068EB /* muyu4_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = EAA5B1CE2A6A6185009068EB /* muyu4_1.wav */; };
+		EAA5B2032A6A6185009068EB /* muyu10_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = EAA5B1CF2A6A6185009068EB /* muyu10_1.wav */; };
+		EAA5B2042A6A6185009068EB /* muyu6_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = EAA5B1D02A6A6185009068EB /* muyu6_1.wav */; };
+		EAA5B2052A6A6185009068EB /* muyu7_0.wav in Resources */ = {isa = PBXBuildFile; fileRef = EAA5B1D12A6A6185009068EB /* muyu7_0.wav */; };
+		EAA5B2062A6A6185009068EB /* muyu2_0.wav in Resources */ = {isa = PBXBuildFile; fileRef = EAA5B1D22A6A6185009068EB /* muyu2_0.wav */; };
+		EAA5B2072A6A6185009068EB /* muyu10_3.wav in Resources */ = {isa = PBXBuildFile; fileRef = EAA5B1D32A6A6185009068EB /* muyu10_3.wav */; };
+		EAA5B20B2A6A84C7009068EB /* select.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAA5B20A2A6A84C7009068EB /* select.mp3 */; };
+		EAA5B20D2A6A84DF009068EB /* broken.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAA5B20C2A6A84DF009068EB /* broken.mp3 */; };
+		EAA5B20F2A6A8555009068EB /* BallonPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA5B20E2A6A8555009068EB /* BallonPage.swift */; };
+		EAA5B2112A6B6E23009068EB /* VoicePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA5B2102A6B6E23009068EB /* VoicePlayer.swift */; };
+		EAA5B2142A6B7359009068EB /* MagicShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA5B2132A6B7359009068EB /* MagicShape.swift */; };
+		EAA5B2162A6B73C5009068EB /* MagicShapePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA5B2152A6B73C5009068EB /* MagicShapePage.swift */; };
+		EAA5B2192A6B9C23009068EB /* TestAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA5B2182A6B9C23009068EB /* TestAnimation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EAA5B1802A6A5B99009068EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAA5B1672A6A5B98009068EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAA5B16E2A6A5B98009068EB;
+			remoteInfo = ReleasePressure;
+		};
+		EAA5B18A2A6A5B99009068EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAA5B1672A6A5B98009068EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAA5B16E2A6A5B98009068EB;
+			remoteInfo = ReleasePressure;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EAA5B16F2A6A5B98009068EB /* ReleasePressure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReleasePressure.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAA5B1722A6A5B98009068EB /* ReleasePressureApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReleasePressureApp.swift; sourceTree = "<group>"; };
+		EAA5B1742A6A5B98009068EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EAA5B1762A6A5B99009068EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EAA5B1792A6A5B99009068EB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EAA5B17F2A6A5B99009068EB /* ReleasePressureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReleasePressureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAA5B1832A6A5B99009068EB /* ReleasePressureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReleasePressureTests.swift; sourceTree = "<group>"; };
+		EAA5B1892A6A5B99009068EB /* ReleasePressureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReleasePressureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAA5B18D2A6A5B99009068EB /* ReleasePressureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReleasePressureUITests.swift; sourceTree = "<group>"; };
+		EAA5B18F2A6A5B99009068EB /* ReleasePressureUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReleasePressureUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EAA5B19C2A6A5FCD009068EB /* WoodenFishPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WoodenFishPage.swift; sourceTree = "<group>"; };
+		EAA5B1A02A6A6184009068EB /* muyu8_1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = muyu8_1.wav; sourceTree = "<group>"; };
+		EAA5B1A12A6A6184009068EB /* muyu10_0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = muyu10_0.wav; sourceTree = "<group>"; };
+		EAA5B1A22A6A6184009068EB /* muyu0_3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = muyu0_3.wav; sourceTree = "<group>"; };
+		EAA5B1A32A6A6184009068EB /* muyu9_1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = muyu9_1.wav; sourceTree = "<group>"; };
+		EAA5B1A42A6A6184009068EB /* muyu7_2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = muyu7_2.wav; sourceTree = "<group>"; };
+		EAA5B1A52A6A6184009068EB /* muyu2_2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = muyu2_2.wav; sourceTree = "<group>"; };
+		EAA5B1A62A6A6184009068EB /* muyu6_2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = muyu6_2.wav; sourceTree = "<group>"; };
+		EAA5B1A72A6A6184009068EB /* muyu12_1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = muyu12_1.wav; sourceTree = "<group>"; };
+		EAA5B1A82A6A6184009068EB /* muyu10_2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = muyu10_2.wav; sourceTree = "<group>"; };
+		EAA5B1A92A6A6184009068EB /* muyu9_0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = muyu9_0.wav; sourceTree = "<group>"; };
+		EAA5B1AA2A6A6184009068EB /* muyu9_3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = muyu9_3.wav; sourceTree = "<group>"; };
+		EAA5B1AB2A6A6184009068EB /* muyu0_0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = muyu0_0.wav; sourceTree = "<group>"; };
+		EAA5B1AC2A6A6184009068EB /* muyu5_3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = muyu5_3.wav; sourceTree = "<group>"; };
+		EAA5B1AD2A6A6184009068EB /* muyu1_3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = muyu1_3.wav; sourceTree = "<group>"; };
+		EAA5B1AE2A6A6185009068EB /* muyu3_2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = muyu3_2.wav; sourceTree = "<group>"; };
+		EAA5B1AF2A6A6185009068EB /* muyu11_2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = muyu11_2.wav; sourceTree = "<group>"; };
+		EAA5B1B02A6A6185009068EB /* muyu3_1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = muyu3_1.wav; sourceTree = "<group>"; };
+		EAA5B1B12A6A6185009068EB /* muyu5_1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = muyu5_1.wav; sourceTree = "<group>"; };
+		EAA5B1B22A6A6185009068EB /* muyu8_2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = muyu8_2.wav; sourceTree = "<group>"; };
+		EAA5B1B32A6A6185009068EB /* muyu4_0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = muyu4_0.wav; sourceTree = "<group>"; };
+		EAA5B1B42A6A6185009068EB /* muyu5_2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = muyu5_2.wav; sourceTree = "<group>"; };
+		EAA5B1B52A6A6185009068EB /* muyu11_0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = muyu11_0.wav; sourceTree = "<group>"; };
+		EAA5B1B62A6A6185009068EB /* muyu4_3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = muyu4_3.wav; sourceTree = "<group>"; };
+		EAA5B1B72A6A6185009068EB /* muyu12_0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = muyu12_0.wav; sourceTree = "<group>"; };
+		EAA5B1B82A6A6185009068EB /* muyu6_3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = muyu6_3.wav; sourceTree = "<group>"; };
+		EAA5B1B92A6A6185009068EB /* muyu7_3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = muyu7_3.wav; sourceTree = "<group>"; };
+		EAA5B1BA2A6A6185009068EB /* muyu8_0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = muyu8_0.wav; sourceTree = "<group>"; };
+		EAA5B1BB2A6A6185009068EB /* muyu1_1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = muyu1_1.wav; sourceTree = "<group>"; };
+		EAA5B1BC2A6A6185009068EB /* muyu3_0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = muyu3_0.wav; sourceTree = "<group>"; };
+		EAA5B1BD2A6A6185009068EB /* muyu7_1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = muyu7_1.wav; sourceTree = "<group>"; };
+		EAA5B1BE2A6A6185009068EB /* muyu5_0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = muyu5_0.wav; sourceTree = "<group>"; };
+		EAA5B1BF2A6A6185009068EB /* muyu8_3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = muyu8_3.wav; sourceTree = "<group>"; };
+		EAA5B1C02A6A6185009068EB /* muyu2_3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = muyu2_3.wav; sourceTree = "<group>"; };
+		EAA5B1C12A6A6185009068EB /* muyu9_2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = muyu9_2.wav; sourceTree = "<group>"; };
+		EAA5B1C22A6A6185009068EB /* muyu1_2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = muyu1_2.wav; sourceTree = "<group>"; };
+		EAA5B1C32A6A6185009068EB /* muyu0_1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = muyu0_1.wav; sourceTree = "<group>"; };
+		EAA5B1C42A6A6185009068EB /* muyu3_3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = muyu3_3.wav; sourceTree = "<group>"; };
+		EAA5B1C52A6A6185009068EB /* muyu2_1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = muyu2_1.wav; sourceTree = "<group>"; };
+		EAA5B1C62A6A6185009068EB /* muyu11_1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = muyu11_1.wav; sourceTree = "<group>"; };
+		EAA5B1C72A6A6185009068EB /* muyu12_2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = muyu12_2.wav; sourceTree = "<group>"; };
+		EAA5B1C82A6A6185009068EB /* muyu4_2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = muyu4_2.wav; sourceTree = "<group>"; };
+		EAA5B1C92A6A6185009068EB /* muyu1_0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = muyu1_0.wav; sourceTree = "<group>"; };
+		EAA5B1CA2A6A6185009068EB /* muyu12_3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = muyu12_3.wav; sourceTree = "<group>"; };
+		EAA5B1CB2A6A6185009068EB /* muyu11_3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = muyu11_3.wav; sourceTree = "<group>"; };
+		EAA5B1CC2A6A6185009068EB /* muyu6_0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = muyu6_0.wav; sourceTree = "<group>"; };
+		EAA5B1CD2A6A6185009068EB /* muyu0_2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = muyu0_2.wav; sourceTree = "<group>"; };
+		EAA5B1CE2A6A6185009068EB /* muyu4_1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = muyu4_1.wav; sourceTree = "<group>"; };
+		EAA5B1CF2A6A6185009068EB /* muyu10_1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = muyu10_1.wav; sourceTree = "<group>"; };
+		EAA5B1D02A6A6185009068EB /* muyu6_1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = muyu6_1.wav; sourceTree = "<group>"; };
+		EAA5B1D12A6A6185009068EB /* muyu7_0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = muyu7_0.wav; sourceTree = "<group>"; };
+		EAA5B1D22A6A6185009068EB /* muyu2_0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = muyu2_0.wav; sourceTree = "<group>"; };
+		EAA5B1D32A6A6185009068EB /* muyu10_3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = muyu10_3.wav; sourceTree = "<group>"; };
+		EAA5B20A2A6A84C7009068EB /* select.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = select.mp3; sourceTree = "<group>"; };
+		EAA5B20C2A6A84DF009068EB /* broken.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = broken.mp3; sourceTree = "<group>"; };
+		EAA5B20E2A6A8555009068EB /* BallonPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallonPage.swift; sourceTree = "<group>"; };
+		EAA5B2102A6B6E23009068EB /* VoicePlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoicePlayer.swift; sourceTree = "<group>"; };
+		EAA5B2132A6B7359009068EB /* MagicShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicShape.swift; sourceTree = "<group>"; };
+		EAA5B2152A6B73C5009068EB /* MagicShapePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicShapePage.swift; sourceTree = "<group>"; };
+		EAA5B2182A6B9C23009068EB /* TestAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAnimation.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAA5B16C2A6A5B98009068EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAA5B17C2A6A5B99009068EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAA5B1862A6A5B99009068EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EAA5B1662A6A5B98009068EB = {
+			isa = PBXGroup;
+			children = (
+				EAA5B1712A6A5B98009068EB /* ReleasePressure */,
+				EAA5B1822A6A5B99009068EB /* ReleasePressureTests */,
+				EAA5B18C2A6A5B99009068EB /* ReleasePressureUITests */,
+				EAA5B1702A6A5B98009068EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAA5B1702A6A5B98009068EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAA5B16F2A6A5B98009068EB /* ReleasePressure.app */,
+				EAA5B17F2A6A5B99009068EB /* ReleasePressureTests.xctest */,
+				EAA5B1892A6A5B99009068EB /* ReleasePressureUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAA5B1712A6A5B98009068EB /* ReleasePressure */ = {
+			isa = PBXGroup;
+			children = (
+				EAA5B2172A6B9C10009068EB /* Test */,
+				EAA5B2122A6B72E8009068EB /* 图形 */,
+				EAA5B2082A6A8407009068EB /* 气球 */,
+				EAA5B19E2A6A60C4009068EB /* 木鱼 */,
+				EAA5B1722A6A5B98009068EB /* ReleasePressureApp.swift */,
+				EAA5B1742A6A5B98009068EB /* ContentView.swift */,
+				EAA5B2102A6B6E23009068EB /* VoicePlayer.swift */,
+				EAA5B1762A6A5B99009068EB /* Assets.xcassets */,
+				EAA5B1782A6A5B99009068EB /* Preview Content */,
+			);
+			path = ReleasePressure;
+			sourceTree = "<group>";
+		};
+		EAA5B1782A6A5B99009068EB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EAA5B1792A6A5B99009068EB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EAA5B1822A6A5B99009068EB /* ReleasePressureTests */ = {
+			isa = PBXGroup;
+			children = (
+				EAA5B1832A6A5B99009068EB /* ReleasePressureTests.swift */,
+			);
+			path = ReleasePressureTests;
+			sourceTree = "<group>";
+		};
+		EAA5B18C2A6A5B99009068EB /* ReleasePressureUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EAA5B18D2A6A5B99009068EB /* ReleasePressureUITests.swift */,
+				EAA5B18F2A6A5B99009068EB /* ReleasePressureUITestsLaunchTests.swift */,
+			);
+			path = ReleasePressureUITests;
+			sourceTree = "<group>";
+		};
+		EAA5B19E2A6A60C4009068EB /* 木鱼 */ = {
+			isa = PBXGroup;
+			children = (
+				EAA5B19F2A6A6112009068EB /* 声音 */,
+				EAA5B19C2A6A5FCD009068EB /* WoodenFishPage.swift */,
+			);
+			path = "木鱼";
+			sourceTree = "<group>";
+		};
+		EAA5B19F2A6A6112009068EB /* 声音 */ = {
+			isa = PBXGroup;
+			children = (
+				EAA5B1AB2A6A6184009068EB /* muyu0_0.wav */,
+				EAA5B1C32A6A6185009068EB /* muyu0_1.wav */,
+				EAA5B1CD2A6A6185009068EB /* muyu0_2.wav */,
+				EAA5B1A22A6A6184009068EB /* muyu0_3.wav */,
+				EAA5B1C92A6A6185009068EB /* muyu1_0.wav */,
+				EAA5B1BB2A6A6185009068EB /* muyu1_1.wav */,
+				EAA5B1C22A6A6185009068EB /* muyu1_2.wav */,
+				EAA5B1AD2A6A6184009068EB /* muyu1_3.wav */,
+				EAA5B1D22A6A6185009068EB /* muyu2_0.wav */,
+				EAA5B1C52A6A6185009068EB /* muyu2_1.wav */,
+				EAA5B1A52A6A6184009068EB /* muyu2_2.wav */,
+				EAA5B1C02A6A6185009068EB /* muyu2_3.wav */,
+				EAA5B1BC2A6A6185009068EB /* muyu3_0.wav */,
+				EAA5B1B02A6A6185009068EB /* muyu3_1.wav */,
+				EAA5B1AE2A6A6185009068EB /* muyu3_2.wav */,
+				EAA5B1C42A6A6185009068EB /* muyu3_3.wav */,
+				EAA5B1B32A6A6185009068EB /* muyu4_0.wav */,
+				EAA5B1CE2A6A6185009068EB /* muyu4_1.wav */,
+				EAA5B1C82A6A6185009068EB /* muyu4_2.wav */,
+				EAA5B1B62A6A6185009068EB /* muyu4_3.wav */,
+				EAA5B1BE2A6A6185009068EB /* muyu5_0.wav */,
+				EAA5B1B12A6A6185009068EB /* muyu5_1.wav */,
+				EAA5B1B42A6A6185009068EB /* muyu5_2.wav */,
+				EAA5B1AC2A6A6184009068EB /* muyu5_3.wav */,
+				EAA5B1CC2A6A6185009068EB /* muyu6_0.wav */,
+				EAA5B1D02A6A6185009068EB /* muyu6_1.wav */,
+				EAA5B1A62A6A6184009068EB /* muyu6_2.wav */,
+				EAA5B1B82A6A6185009068EB /* muyu6_3.wav */,
+				EAA5B1D12A6A6185009068EB /* muyu7_0.wav */,
+				EAA5B1BD2A6A6185009068EB /* muyu7_1.wav */,
+				EAA5B1A42A6A6184009068EB /* muyu7_2.wav */,
+				EAA5B1B92A6A6185009068EB /* muyu7_3.wav */,
+				EAA5B1BA2A6A6185009068EB /* muyu8_0.wav */,
+				EAA5B1A02A6A6184009068EB /* muyu8_1.wav */,
+				EAA5B1B22A6A6185009068EB /* muyu8_2.wav */,
+				EAA5B1BF2A6A6185009068EB /* muyu8_3.wav */,
+				EAA5B1A92A6A6184009068EB /* muyu9_0.wav */,
+				EAA5B1A32A6A6184009068EB /* muyu9_1.wav */,
+				EAA5B1C12A6A6185009068EB /* muyu9_2.wav */,
+				EAA5B1AA2A6A6184009068EB /* muyu9_3.wav */,
+				EAA5B1A12A6A6184009068EB /* muyu10_0.wav */,
+				EAA5B1CF2A6A6185009068EB /* muyu10_1.wav */,
+				EAA5B1A82A6A6184009068EB /* muyu10_2.wav */,
+				EAA5B1D32A6A6185009068EB /* muyu10_3.wav */,
+				EAA5B1B52A6A6185009068EB /* muyu11_0.wav */,
+				EAA5B1C62A6A6185009068EB /* muyu11_1.wav */,
+				EAA5B1AF2A6A6185009068EB /* muyu11_2.wav */,
+				EAA5B1CB2A6A6185009068EB /* muyu11_3.wav */,
+				EAA5B1B72A6A6185009068EB /* muyu12_0.wav */,
+				EAA5B1A72A6A6184009068EB /* muyu12_1.wav */,
+				EAA5B1C72A6A6185009068EB /* muyu12_2.wav */,
+				EAA5B1CA2A6A6185009068EB /* muyu12_3.wav */,
+			);
+			path = "声音";
+			sourceTree = "<group>";
+		};
+		EAA5B2082A6A8407009068EB /* 气球 */ = {
+			isa = PBXGroup;
+			children = (
+				EAA5B2092A6A84B5009068EB /* 声音 */,
+				EAA5B20E2A6A8555009068EB /* BallonPage.swift */,
+			);
+			path = "气球";
+			sourceTree = "<group>";
+		};
+		EAA5B2092A6A84B5009068EB /* 声音 */ = {
+			isa = PBXGroup;
+			children = (
+				EAA5B20C2A6A84DF009068EB /* broken.mp3 */,
+				EAA5B20A2A6A84C7009068EB /* select.mp3 */,
+			);
+			path = "声音";
+			sourceTree = "<group>";
+		};
+		EAA5B2122A6B72E8009068EB /* 图形 */ = {
+			isa = PBXGroup;
+			children = (
+				EAA5B2132A6B7359009068EB /* MagicShape.swift */,
+				EAA5B2152A6B73C5009068EB /* MagicShapePage.swift */,
+			);
+			path = "图形";
+			sourceTree = "<group>";
+		};
+		EAA5B2172A6B9C10009068EB /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				EAA5B2182A6B9C23009068EB /* TestAnimation.swift */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAA5B16E2A6A5B98009068EB /* ReleasePressure */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAA5B1932A6A5B99009068EB /* Build configuration list for PBXNativeTarget "ReleasePressure" */;
+			buildPhases = (
+				EAA5B16B2A6A5B98009068EB /* Sources */,
+				EAA5B16C2A6A5B98009068EB /* Frameworks */,
+				EAA5B16D2A6A5B98009068EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReleasePressure;
+			productName = ReleasePressure;
+			productReference = EAA5B16F2A6A5B98009068EB /* ReleasePressure.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EAA5B17E2A6A5B99009068EB /* ReleasePressureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAA5B1962A6A5B99009068EB /* Build configuration list for PBXNativeTarget "ReleasePressureTests" */;
+			buildPhases = (
+				EAA5B17B2A6A5B99009068EB /* Sources */,
+				EAA5B17C2A6A5B99009068EB /* Frameworks */,
+				EAA5B17D2A6A5B99009068EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAA5B1812A6A5B99009068EB /* PBXTargetDependency */,
+			);
+			name = ReleasePressureTests;
+			productName = ReleasePressureTests;
+			productReference = EAA5B17F2A6A5B99009068EB /* ReleasePressureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EAA5B1882A6A5B99009068EB /* ReleasePressureUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAA5B1992A6A5B99009068EB /* Build configuration list for PBXNativeTarget "ReleasePressureUITests" */;
+			buildPhases = (
+				EAA5B1852A6A5B99009068EB /* Sources */,
+				EAA5B1862A6A5B99009068EB /* Frameworks */,
+				EAA5B1872A6A5B99009068EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAA5B18B2A6A5B99009068EB /* PBXTargetDependency */,
+			);
+			name = ReleasePressureUITests;
+			productName = ReleasePressureUITests;
+			productReference = EAA5B1892A6A5B99009068EB /* ReleasePressureUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAA5B1672A6A5B98009068EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					EAA5B16E2A6A5B98009068EB = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					EAA5B17E2A6A5B99009068EB = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = EAA5B16E2A6A5B98009068EB;
+					};
+					EAA5B1882A6A5B99009068EB = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = EAA5B16E2A6A5B98009068EB;
+					};
+				};
+			};
+			buildConfigurationList = EAA5B16A2A6A5B98009068EB /* Build configuration list for PBXProject "ReleasePressure" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAA5B1662A6A5B98009068EB;
+			productRefGroup = EAA5B1702A6A5B98009068EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAA5B16E2A6A5B98009068EB /* ReleasePressure */,
+				EAA5B17E2A6A5B99009068EB /* ReleasePressureTests */,
+				EAA5B1882A6A5B99009068EB /* ReleasePressureUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAA5B16D2A6A5B98009068EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAA5B1DC2A6A6185009068EB /* muyu10_2.wav in Resources */,
+				EAA5B1E62A6A6185009068EB /* muyu8_2.wav in Resources */,
+				EAA5B2002A6A6185009068EB /* muyu6_0.wav in Resources */,
+				EAA5B2032A6A6185009068EB /* muyu10_1.wav in Resources */,
+				EAA5B1E02A6A6185009068EB /* muyu5_3.wav in Resources */,
+				EAA5B1DE2A6A6185009068EB /* muyu9_3.wav in Resources */,
+				EAA5B1EF2A6A6185009068EB /* muyu1_1.wav in Resources */,
+				EAA5B1D52A6A6185009068EB /* muyu10_0.wav in Resources */,
+				EAA5B1D62A6A6185009068EB /* muyu0_3.wav in Resources */,
+				EAA5B1DF2A6A6185009068EB /* muyu0_0.wav in Resources */,
+				EAA5B1FE2A6A6185009068EB /* muyu12_3.wav in Resources */,
+				EAA5B1D92A6A6185009068EB /* muyu2_2.wav in Resources */,
+				EAA5B1F02A6A6185009068EB /* muyu3_0.wav in Resources */,
+				EAA5B1FA2A6A6185009068EB /* muyu11_1.wav in Resources */,
+				EAA5B1F62A6A6185009068EB /* muyu1_2.wav in Resources */,
+				EAA5B1F72A6A6185009068EB /* muyu0_1.wav in Resources */,
+				EAA5B1E42A6A6185009068EB /* muyu3_1.wav in Resources */,
+				EAA5B2052A6A6185009068EB /* muyu7_0.wav in Resources */,
+				EAA5B20B2A6A84C7009068EB /* select.mp3 in Resources */,
+				EAA5B1FB2A6A6185009068EB /* muyu12_2.wav in Resources */,
+				EAA5B1E52A6A6185009068EB /* muyu5_1.wav in Resources */,
+				EAA5B1EE2A6A6185009068EB /* muyu8_0.wav in Resources */,
+				EAA5B1DB2A6A6185009068EB /* muyu12_1.wav in Resources */,
+				EAA5B20D2A6A84DF009068EB /* broken.mp3 in Resources */,
+				EAA5B2022A6A6185009068EB /* muyu4_1.wav in Resources */,
+				EAA5B1E22A6A6185009068EB /* muyu3_2.wav in Resources */,
+				EAA5B17A2A6A5B99009068EB /* Preview Assets.xcassets in Resources */,
+				EAA5B1D82A6A6185009068EB /* muyu7_2.wav in Resources */,
+				EAA5B1FF2A6A6185009068EB /* muyu11_3.wav in Resources */,
+				EAA5B1E12A6A6185009068EB /* muyu1_3.wav in Resources */,
+				EAA5B1DD2A6A6185009068EB /* muyu9_0.wav in Resources */,
+				EAA5B2042A6A6185009068EB /* muyu6_1.wav in Resources */,
+				EAA5B1E72A6A6185009068EB /* muyu4_0.wav in Resources */,
+				EAA5B1E92A6A6185009068EB /* muyu11_0.wav in Resources */,
+				EAA5B1D42A6A6185009068EB /* muyu8_1.wav in Resources */,
+				EAA5B1E82A6A6185009068EB /* muyu5_2.wav in Resources */,
+				EAA5B1F92A6A6185009068EB /* muyu2_1.wav in Resources */,
+				EAA5B2072A6A6185009068EB /* muyu10_3.wav in Resources */,
+				EAA5B1F42A6A6185009068EB /* muyu2_3.wav in Resources */,
+				EAA5B1F32A6A6185009068EB /* muyu8_3.wav in Resources */,
+				EAA5B1F52A6A6185009068EB /* muyu9_2.wav in Resources */,
+				EAA5B1ED2A6A6185009068EB /* muyu7_3.wav in Resources */,
+				EAA5B1EA2A6A6185009068EB /* muyu4_3.wav in Resources */,
+				EAA5B1D72A6A6185009068EB /* muyu9_1.wav in Resources */,
+				EAA5B1FC2A6A6185009068EB /* muyu4_2.wav in Resources */,
+				EAA5B1FD2A6A6185009068EB /* muyu1_0.wav in Resources */,
+				EAA5B2062A6A6185009068EB /* muyu2_0.wav in Resources */,
+				EAA5B1F82A6A6185009068EB /* muyu3_3.wav in Resources */,
+				EAA5B2012A6A6185009068EB /* muyu0_2.wav in Resources */,
+				EAA5B1EC2A6A6185009068EB /* muyu6_3.wav in Resources */,
+				EAA5B1EB2A6A6185009068EB /* muyu12_0.wav in Resources */,
+				EAA5B1F22A6A6185009068EB /* muyu5_0.wav in Resources */,
+				EAA5B1DA2A6A6185009068EB /* muyu6_2.wav in Resources */,
+				EAA5B1772A6A5B99009068EB /* Assets.xcassets in Resources */,
+				EAA5B1F12A6A6185009068EB /* muyu7_1.wav in Resources */,
+				EAA5B1E32A6A6185009068EB /* muyu11_2.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAA5B17D2A6A5B99009068EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAA5B1872A6A5B99009068EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAA5B16B2A6A5B98009068EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAA5B20F2A6A8555009068EB /* BallonPage.swift in Sources */,
+				EAA5B19D2A6A5FCD009068EB /* WoodenFishPage.swift in Sources */,
+				EAA5B2162A6B73C5009068EB /* MagicShapePage.swift in Sources */,
+				EAA5B1752A6A5B98009068EB /* ContentView.swift in Sources */,
+				EAA5B2142A6B7359009068EB /* MagicShape.swift in Sources */,
+				EAA5B2112A6B6E23009068EB /* VoicePlayer.swift in Sources */,
+				EAA5B2192A6B9C23009068EB /* TestAnimation.swift in Sources */,
+				EAA5B1732A6A5B98009068EB /* ReleasePressureApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAA5B17B2A6A5B99009068EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAA5B1842A6A5B99009068EB /* ReleasePressureTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAA5B1852A6A5B99009068EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAA5B18E2A6A5B99009068EB /* ReleasePressureUITests.swift in Sources */,
+				EAA5B1902A6A5B99009068EB /* ReleasePressureUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EAA5B1812A6A5B99009068EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAA5B16E2A6A5B98009068EB /* ReleasePressure */;
+			targetProxy = EAA5B1802A6A5B99009068EB /* PBXContainerItemProxy */;
+		};
+		EAA5B18B2A6A5B99009068EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAA5B16E2A6A5B98009068EB /* ReleasePressure */;
+			targetProxy = EAA5B18A2A6A5B99009068EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EAA5B1912A6A5B99009068EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EAA5B1922A6A5B99009068EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAA5B1942A6A5B99009068EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ReleasePressure/Preview Content\"";
+				DEVELOPMENT_TEAM = 5W4AXCR5B5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wktools.ReleasePressure;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EAA5B1952A6A5B99009068EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ReleasePressure/Preview Content\"";
+				DEVELOPMENT_TEAM = 5W4AXCR5B5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wktools.ReleasePressure;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EAA5B1972A6A5B99009068EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5W4AXCR5B5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wktools.ReleasePressureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReleasePressure.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ReleasePressure";
+			};
+			name = Debug;
+		};
+		EAA5B1982A6A5B99009068EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5W4AXCR5B5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wktools.ReleasePressureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReleasePressure.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ReleasePressure";
+			};
+			name = Release;
+		};
+		EAA5B19A2A6A5B99009068EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5W4AXCR5B5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wktools.ReleasePressureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ReleasePressure;
+			};
+			name = Debug;
+		};
+		EAA5B19B2A6A5B99009068EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5W4AXCR5B5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wktools.ReleasePressureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ReleasePressure;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAA5B16A2A6A5B98009068EB /* Build configuration list for PBXProject "ReleasePressure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAA5B1912A6A5B99009068EB /* Debug */,
+				EAA5B1922A6A5B99009068EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAA5B1932A6A5B99009068EB /* Build configuration list for PBXNativeTarget "ReleasePressure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAA5B1942A6A5B99009068EB /* Debug */,
+				EAA5B1952A6A5B99009068EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAA5B1962A6A5B99009068EB /* Build configuration list for PBXNativeTarget "ReleasePressureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAA5B1972A6A5B99009068EB /* Debug */,
+				EAA5B1982A6A5B99009068EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAA5B1992A6A5B99009068EB /* Build configuration list for PBXNativeTarget "ReleasePressureUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAA5B19A2A6A5B99009068EB /* Debug */,
+				EAA5B19B2A6A5B99009068EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAA5B1672A6A5B98009068EB /* Project object */;
+}
